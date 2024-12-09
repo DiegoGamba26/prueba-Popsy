@@ -1,0 +1,81 @@
+[
+  {
+    "ContainingType": "WEBAPI.Controllers.TareaController",
+    "Method": "CreateReservation",
+    "RelativePath": "api/tareas/Tarea/createTarea",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tareaDTO",
+        "Type": "WebApplication1.DTOs.TareaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.TareaController",
+    "Method": "DeleteTarea",
+    "RelativePath": "api/tareas/Tarea/deleteTarea/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.TareaController",
+    "Method": "GetReservations",
+    "RelativePath": "api/tareas/Tarea/getTarea",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.TareaController",
+    "Method": "GetTareasById",
+    "RelativePath": "api/tareas/Tarea/tareasById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tareaId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WEBAPI.Controllers.TareaController",
+    "Method": "UpdateTarea",
+    "RelativePath": "api/tareas/Tarea/updateTarea/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "tareaDTO",
+        "Type": "WebApplication1.DTOs.TareaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
